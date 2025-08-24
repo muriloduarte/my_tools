@@ -1,0 +1,11 @@
+  amazon.com.br                                                                  │
+ │    awin.com                                                                       │
+ │    basecamp.com                                                                   │
+ │    cursor.sh                                                                      │
+ │    debian.org                                                                     │
+ │    github.com                                                                     │
+ │    meetup.com                                                                     │
+ │    mercadolivre.com.br                                                            │
+ │    miwifi.com                                                                     │
+ │    raspberrypi.com                                                                │
+ │    slack.com 
