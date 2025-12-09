@@ -1,0 +1,37 @@
+// code $HOME/.bashrc
+
+alias dcbuild="docker-compose build"
+alias dcrc="docker-compose run --rm web bundle exec rails c"
+alias dcruw="docker-compose run web bundle exec rubocop -a"
+alias dctw="docker-compose run --rm web tail -f log/development.log"
+alias dcup="docker-compose up"
+alias dcupw="docker-compose up web"
+alias ga="git add"
+alias gb="git branch"
+alias gc="git commit"
+alias gd="git diff"
+alias gl="git log"
+alias gprune="git fetch --prune"
+alias gr="git remote -v"
+alias greset="git reset --hard HEAD"
+alias gs="git status --short"
+alias gtr="git rebase -i HEAD~2"
+alias htop='sudo htop'
+alias k="kubectx"
+alias kfn="k -n fonte-nova"
+alias kfn="kubectl -n fonte-nova"
+alias kgn="k get nodes"
+alias ktn="k top nodes"
+alias la='ls -Alh'
+alias log="tail -f log/development.log"
+alias ls='ls --color=auto'
+alias out='sudo shutdown -h now'
+alias poweroff="sudo systemctl poweroff"
+alias psqlstart="sudo service postgresql start"
+alias psqlstop="sudo service postgresql stop"
+alias reboot="sudo systemctl reboot"
+alias rspec="bundle exec rspec"
+alias rt="rails test --fail-fast"
+alias rubocop="bundle exec rubocop -a"
+alias suspend="sudo systemctl suspend"
+alias up='sudo apt update -y; sudo apt upgrade -y; sudo apt autoremove -y;'
