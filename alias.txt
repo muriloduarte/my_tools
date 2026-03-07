@@ -35,3 +35,4 @@ alias rt="rails test --fail-fast"
 alias rubocop="bundle exec rubocop -a"
 alias suspend="sudo systemctl suspend"
 alias up='sudo apt update -y; sudo apt upgrade -y; sudo apt autoremove -y;'
+alias my_cursor='cursor --user-data-dir="$HOME/.cursor-session2" --password-store="basic"'
